@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var p2 = "#player2_strip";
   var score1 = 0; 
   var score2 = 0;
-  var trackLength = 9;
+  var trackLength = 8;
 
 
  document.addEventListener("keyup",keyStroke)
