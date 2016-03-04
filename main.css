@@ -7,3 +7,8 @@
 .racer_table td.active {
   background-color: orange;
 }
+
+body {
+    background-image: url("http://www.joomla-css.nl/images/joomla30/seamless-grass.jpg");
+    /*background-color: #cccccc;*/
+}
