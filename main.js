@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var trackLength = 8;
 
 
- document.addEventListener("keyup",keyStroke)
+ document.addEventListener("keyup",keyStroke) 
 
  	function keyStroke(e){
 
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 				else if (score1 >= trackLength){
 					alert("Player 1 wins");
-					document.removeEventListener("keyup",keyStroke); 
+					
 					restart();
 				}
 			}
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			}
 			else {
 				alert("Player 2 wins");
-				document.removeEventListener("keyup",keyStroke); 
+				 
 				restart();
 			}
 		}

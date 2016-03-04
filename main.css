@@ -23,3 +23,7 @@ p {
 	color: black;
 	font-size: 1.5em;
 }
+
+.finish {
+	border-right: thick double #ffff00;
+}
