@@ -12,3 +12,14 @@ body {
     background-image: url("http://www.joomla-css.nl/images/joomla30/seamless-grass.jpg");
     /*background-color: #cccccc;*/
 }
+
+h2 {
+	
+	color: black;
+	font-size: 2em;
+}
+
+p {
+	color: black;
+	font-size: 1.5em;
+}
