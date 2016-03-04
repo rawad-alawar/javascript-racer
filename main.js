@@ -50,4 +50,8 @@ document.addEventListener('DOMContentLoaded', function() {
 	function restart(){
 		location.reload();  
 	}
+
+	var button = document.getElementById("newGame");
+    button.addEventListener("click", restart, false);
+
 })

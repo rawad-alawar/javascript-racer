@@ -5,7 +5,11 @@
 }
 
 .racer_table td.active {
-  background-color: orange;
+  background-color: white;
+  background-image: url("http://content.mycutegraphics.com/graphics/bug/grasshopper-cute.png");
+  background-size: 100% 90%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 body {
@@ -17,13 +21,31 @@ h2 {
 	
 	color: black;
 	font-size: 2em;
+	text-align: center;
 }
 
-p {
+h3 {
 	color: black;
 	font-size: 1.5em;
+	text-align: center;
 }
 
 .finish {
 	border-right: thick double #ffff00;
 }
+
+
+table {
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+
+#newGame {
+	margin: 6em;
+}
+
+
+/*.active {
+	background-image: url("http://content.mycutegraphics.com/graphics/bug/grasshopper-cute.png");
+	background-color: white;
+}*/
